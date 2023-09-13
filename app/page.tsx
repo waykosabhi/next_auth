@@ -8,7 +8,6 @@ const page = () => {
     return (
       <>
         <button onClick={(e) => signOut()}>LOGOUT</button>
-        {/* <pre>{JSON.stringify(data)}</pre> */}
         <h1>{data.user?.name}</h1>
         <h1>{data.user?.email}</h1>
         <img

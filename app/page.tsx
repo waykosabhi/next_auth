@@ -1,7 +1,7 @@
 "use client";
 import { signIn, signOut, useSession } from "next-auth/react";
 
-const page = () => {
+const Home = () => {
   const { data, status } = useSession();
 
   if (status === "authenticated") {
@@ -25,4 +25,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Home;
